@@ -27,11 +27,11 @@ module.exports = {
         buildVersion: appVersion,
         icon: "./icons/icon",
         osxSign: {
-            entitlements: './entitlements.plist',      
-            'entitlements-inherit': './entitlements.plist',      
+            entitlements: 'electron-app/src/default.entitlements',
+            'entitlements-inherit': 'electron-app/src/default.entitlements',
             'gatekeeper-assess': false,
             hardenedRuntime: true,
-            identity: process.env['CERTIFICATE_NAME']
+            identity: process.env['DEVELOPER_ID_APPLICATION']
         },
         osxNotarize: {
             appleId: process.env['APPLE_ID'],
