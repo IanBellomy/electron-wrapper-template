@@ -27,7 +27,7 @@ module.exports = {
         buildVersion: appVersion,
         icon: "./icons/icon",
         osxSign: {
-            entitlements: 'electron-app/src/default.entitlements',
+            entitlements: 'electron-app/src/default-entitlements.plist',
             'entitlements-inherit': 'electron-app/src/default.entitlements',
             'gatekeeper-assess': false,
             hardenedRuntime: true,
