@@ -12,9 +12,9 @@ const createWindow = () => {
     width: 1024,
     height: 768,
     frame: false,
-    webPreferences: {
-      devTools: false
-    }
+//     webPreferences: {
+//       devTools: false
+//     }
   });
 
   // and load the index.html of the app.
