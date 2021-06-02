@@ -12,6 +12,7 @@ const createWindow = () => {
     width: 1024,
     height: 768,
     frame: false,
+    backgroundColor: "#000000"
 //     webPreferences: {
 //       devTools: false
 //     }
